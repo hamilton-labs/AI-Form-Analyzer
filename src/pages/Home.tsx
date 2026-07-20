@@ -92,14 +92,14 @@ export default function Home() {
           <div className="mb-12">
             <div className="flex items-center gap-2 mb-8">
               <div className="w-2 h-2 bg-black" />
-              <span className="text-sm font-medium">Synergy Supreme</span>
+              <span className="text-sm font-medium">Less synergy. More shipping.</span>
             </div>
 
             <h1 className="text-4xl md:text-5xl font-semibold mb-4 leading-tight">
-              Let's disrupt some paradigms
+              Forget paradigms Disrupt expectations
             </h1>
             <p className="text-gray-600">
-              Schedule a deep-dive to ideate on low-hanging fruit and circle back on your bandwidth concerns.
+              You don't need to ideate on low-hanging fruit. <br/> Just pick the fruit and keep climbing. <br/> Your best keynote is a working demo.
             </p>
           </div>
 
@@ -181,7 +181,7 @@ export default function Home() {
                 href="mailto:hello@synergysupreme.biz"
                 className="text-gray-900 underline hover:no-underline"
               >
-                hello@synergysupreme.biz
+                service@hamilton-labs.com
               </a>
             </p>
           </form>
@@ -189,49 +189,50 @@ export default function Home() {
       </div>
 
       {/* Right side - Testimonial */}
-      <div className="hidden lg:flex w-1/2 bg-gradient-to-br from-amber-500 via-rose-500 to-purple-700 items-center justify-center p-16 relative overflow-hidden">
+      <div className="hidden lg:flex w-1/2 bg-gradient-to-br from-teal-500 via-blue-500 to-purple-700 items-center justify-center p-16 relative overflow-hidden">
         <div className="max-w-xl text-white z-10">
           <blockquote className="text-3xl md:text-4xl font-medium leading-tight mb-12">
-            "Synergy Supreme helped us pivot our pivot. We went from disrupting nothing to disrupting everything. Series Z incoming."
+            "Series A? <br/> Series B? <br/> We'd rather ship Version 1.0."
           </blockquote>
 
           <div className="space-y-8">
             <div className="grid grid-cols-2 gap-8 text-sm">
               <div>
                 <div className="text-white/80 mb-1">Partner ↓</div>
-                <div className="font-medium">Blockchain Burritos</div>
+                <div className="font-medium">Hamilton Labs</div>
               </div>
               <div>
                 <div className="text-white/80 mb-1">Year ↓</div>
-                <div className="font-medium">Q4 2024</div>
+                <div className="font-medium">Q4 2026</div>
               </div>
               <div>
                 <div className="text-white/80 mb-1">Website ↓</div>
-                <div className="font-medium">blockchainburritos.io</div>
+                <div className="font-medium">app.hamilton-labs.com</div>
               </div>
               <div>
-                <div className="text-white/80 mb-1">Investment ↓</div>
-                <div className="font-medium">$420,690,000</div>
+                <div className="text-white/80 mb-1">Bootstrap goal ↓</div>
+                <div className="font-medium">$444,711,921</div>
               </div>
             </div>
 
             <div>
               <div className="text-white/80 text-sm mb-2">Services ↓</div>
               <div className="space-y-1 text-sm font-medium">
-                <div>Paradigm Shifting</div>
-                <div>Synergy Optimization</div>
-                <div>Disruptive Innovation</div>
-                <div>Agile Buzzword Integration</div>
-                <div>Thought Leadership As A Service</div>
+                <div>Disrupt Expectations</div>
+                <div>Question Assumptions</div>
+                <div>Work Better Together</div>
+                <div>Solve Real Problems</div>
+                <div>Ignore Ignorance</div>
+                <div>Forget the hype. Build the Future</div>
               </div>
             </div>
           </div>
 
           <div className="absolute bottom-8 right-8 flex items-center gap-3">
             <div className="w-10 h-10 bg-white flex items-center justify-center">
-              <span className="text-amber-600 font-bold text-xl">BB</span>
+              <span className="text-blue-600 font-bold text-xl">HL</span>
             </div>
-            <span className="text-2xl font-bold">Blockchain Burritos</span>
+            <span className="text-2xl font-bold">Hamilton Labs</span>
           </div>
         </div>
       </div>
