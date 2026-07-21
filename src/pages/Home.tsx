@@ -1,4 +1,5 @@
-import { useState, useMemo, type FormEvent } from "react";
+import { useState, useMemo, type FormEvent,} from "react";
+import { Link } from "react-router-dom";
 
 type FormStatus = "idle" | "loading" | "success" | "error";
 
@@ -207,7 +208,7 @@ export default function Home() {
               </div>
               <div>
                 <div className="text-white/80 mb-1">Website ↓</div>
-                <div className="font-medium">app.hamilton-labs.com</div>
+                <div className="font-medium">hamilton-labs.com</div>
               </div>
               <div>
                 <div className="text-white/80 mb-1">Bootstrap goal ↓</div>
@@ -228,13 +229,19 @@ export default function Home() {
             </div>
           </div>
 
+          <Link 
+            to="https://hamilton-labs.com" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
           <div className="absolute bottom-8 right-8 flex items-center gap-3">
-            <div className="w-10 h-10 bg-white flex items-center justify-center">
-              <span className="text-blue-600 font-bold text-xl">HL</span>
-            </div>
-            <span className="text-2xl font-bold">Hamilton Labs</span>
+          <div className="w-10 h-10 bg-white flex items-center justify-center">
+          <span className="text-blue-600 font-bold text-xl">HL</span>
           </div>
-        </div>
+          <span className="text-2xl font-bold">Hamilton Labs</span>
+          </div>
+          </Link>
+          </div>
       </div>
     </div>
   );
