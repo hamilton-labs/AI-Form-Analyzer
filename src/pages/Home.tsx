@@ -100,7 +100,7 @@ export default function Home() {
               Forget paradigms Disrupt expectations
             </h1>
             <p className="text-gray-600">
-              You don't need to ideate on low-hanging fruit. <br/> Just pick the fruit and keep climbing. <br/> Your best keynote is a working demo.
+              Don't ideate on low-hanging fruit. <br/> Pick the fruit and keep climbing. <br/> Your best keynote is a working demo.
             </p>
           </div>
 
